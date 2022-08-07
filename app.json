@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "bmw_clone",
+    "slug": "bmw_clone",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "bmw_clone"
+}
