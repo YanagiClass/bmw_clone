@@ -63,7 +63,7 @@ export default function Visualizer() {
             <Img>
               <ImageBackground
                 source={require("../asset/Visualizer/a1.jpeg")}
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: "80%", height: "100%" }}
                 resizeMode="contain"
               />
             </Img>
@@ -171,4 +171,6 @@ const ImgWrapper = styled.View`
 `;
 const Img = styled.View`
   flex: 1;
+  justify-content: center;
+  align-items: center;
 `;
