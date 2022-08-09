@@ -71,7 +71,7 @@ export default function Visualizer() {
               <ImageBackground
                 source={require("../asset/Visualizer/a2.png")}
                 style={{ width: "100%", height: "100%" }}
-                resizeMode="cover"
+                resizeMode="contain"
               />
             </Img>
           </ImgWrapper>
