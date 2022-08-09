@@ -63,7 +63,7 @@ export default function Visualizer() {
             <Img>
               <ImageBackground
                 source={require("../asset/Visualizer/a1.jpeg")}
-                style={{ width: "80%", height: "100%" }}
+                style={{ width: "100%", height: "100%" }}
                 resizeMode="contain"
               />
             </Img>
@@ -71,7 +71,7 @@ export default function Visualizer() {
               <ImageBackground
                 source={require("../asset/Visualizer/a2.png")}
                 style={{ width: "100%", height: "100%" }}
-                resizeMode="contain"
+                resizeMode="cover"
               />
             </Img>
           </ImgWrapper>
